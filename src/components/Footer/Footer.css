@@ -1,0 +1,24 @@
+.f-container{
+    background: black;
+    justify-content: space-around;
+}
+.f-right{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.f-menu span{
+    color: white;
+    margin: 0 5px;
+    cursor: pointer;
+}
+@media (max-width:768px) {
+    .f-container{
+        justify-content: center;
+    }
+    .f-container>div{
+        align-items: center;
+        text-align: center;
+    }
+}
